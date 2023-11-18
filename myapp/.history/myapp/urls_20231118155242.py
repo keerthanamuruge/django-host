@@ -17,7 +17,7 @@ Including another URLconf
 from django.conf.urls.static import static 
 from django.contrib.staticfiles.storage import staticfiles_storage
 from django.contrib import admin
-from django.urls import path, re_path, include
+from django.urls import path, re_path
 from .views import home
 from . import settings
 from django.views.generic.base import RedirectView
